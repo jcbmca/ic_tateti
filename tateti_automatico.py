@@ -14,10 +14,7 @@ import csv
 
 def clear():
     _ = os.system( ('clear', 'cls')[os.name == 'nt'])
-#    if os.name == 'nt':
-#        _ = os.system('cls')
-#    else:
-#        _ = os.system('clear')
+
 
 class Tablero():
     # tablero 
